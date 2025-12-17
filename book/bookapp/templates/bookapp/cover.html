@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>John Cena – The Struggle Story</title>
+    <link rel="stylesheet" href="{% static 'bookapp/style.css' %}">
+</head>
+<body>
+
+<div class="book-cover">
+
+    <h1 class="book-title">
+        Rise Through Struggle
+    </h1>
+
+    <h2 class="book-subtitle">
+        The Untold Journey of John Cena
+    </h2>
+
+    <div class="image-box">
+        <img src="{% static 'bookapp/images/johncena.webp' %}" alt="John Cena">
+
+    </div>
+
+    <p class="description">
+        This book explores the hardships, failures, and relentless determination
+        of John Cena, who rose from rejection and financial struggle to become
+        one of the greatest professional wrestlers in history.
+    </p>
+
+    <p class="author">
+        Written by <span>Santhosh</span>
+    </p>
+
+</div>
+
+</body>
+</html>
